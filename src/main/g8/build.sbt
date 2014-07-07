@@ -7,7 +7,7 @@ version := "$version$"
 scalaVersion := "$scalaversion$"
 
 libraryDependencies ++= Seq(
-  "org.specs2" %% "specs2" % "2.1-SNAPSHOT" % "test"
+  "org.specs2" %% "specs2" % "$specs2version$" % "test"
 )
 
 initialCommands := "import $organization$.$name;format="lower,word"$._"
