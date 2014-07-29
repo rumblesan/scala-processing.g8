@@ -6,7 +6,7 @@ object App {
 
   def main(args: Array[String]) {
     PApplet.main(
-      Array()
+      Array("$organization$.$name;format="lower,word"$.$name;format="Camel,word"$")
     )
   }
 
