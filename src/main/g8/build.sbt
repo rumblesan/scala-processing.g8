@@ -13,3 +13,6 @@ libraryDependencies ++= Seq(
 initialCommands := "import $organization$.$name;format="lower,word"$._"
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-language:_")
+
+fork in run := true
+
